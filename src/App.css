@@ -1,0 +1,58 @@
+body{
+  background: #fff;
+}
+
+
+.Login{
+  width: 340px;
+  height: 420px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px  30px;
+}
+
+.imagen{
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  
+}
+
+.texto{
+  text-align: center;
+  font-size: 13px;
+}
+
+.Login input[type = "text"], .Login input[type = "password"]{
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+.bot1{
+  border: 3;
+  background: #E75B0B;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #E75B0B;
+  padding: 6px 30px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+}
+
+
+.link{
+  margin: 10px  0;
+  text-align: center;
+}
